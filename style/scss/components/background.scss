@@ -1,0 +1,22 @@
+header {
+    background: linear-gradient( $backgroundGradientColor, $backgroundGradientColor), url("../../images/backgrounds/IMG_1.jpg");
+    background-size: cover;
+    height: 100%;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+        font-family: RobotoThin;
+        color: $color-light;
+        letter-spacing: 1.25rem;
+
+        h1 {
+            font-size: 7vh;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+version: '3'
+services:
+
+  db:
+    image: mysql:latest
+    volumes:
+      - "./db:/var/lib/mysql"
+    environment:
+      - MYSQL_DATABASE=website_db
+      - MYSQL_USER=website_user
+      - MYSQL_PASSWORD=website_password
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1
+    networks:
+      - website
+
+  www:
+    depends_on:
+      - db
+    image: apache_image:1.0
+    volumes:
+      - ".:/var/www/html"
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - website
+
+  phpmyadmin:
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 8001:80
+    environment:
+      - PMA_HOST=db
+      - PMA_PORT=3306
+    networks:
+      - website
+
+networks:
+  website:
+    driver: bridge

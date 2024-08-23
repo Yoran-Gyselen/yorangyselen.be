@@ -1,0 +1,20 @@
+@import "fonts";
+@import "colors";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    color: $color-dark;
+    font-family: RobotoRegular;
+    margin: 0;
+    height: 100%;
+    min-width: 300px;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}

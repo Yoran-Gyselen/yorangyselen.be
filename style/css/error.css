@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../../fonts/Roboto/Roboto-Regular.woff"); }
+@font-face {
+  font-family: "RobotoThin";
+  src: url("../../fonts/Roboto/Roboto-Thin.woff"); }
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../../fonts/Roboto/Roboto-Light.woff"); }
+@font-face {
+  font-family: "NothingYouCouldDo";
+  src: url("../../fonts/NothingYouCouldDo/NothingYouCouldDo-Regular.ttf"); }
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../../fonts/Roboto/Roboto-Regular.woff"); }
+@font-face {
+  font-family: "RobotoThin";
+  src: url("../../fonts/Roboto/Roboto-Thin.woff"); }
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../../fonts/Roboto/Roboto-Light.woff"); }
+@font-face {
+  font-family: "NothingYouCouldDo";
+  src: url("../../fonts/NothingYouCouldDo/NothingYouCouldDo-Regular.ttf"); }
+* {
+  box-sizing: border-box; }
+
+html {
+  background-color: white;
+  color: #4c4c4c;
+  font-family: RobotoRegular;
+  margin: 0;
+  height: 100%;
+  min-width: 300px; }
+
+body {
+  margin: 0;
+  height: 100%; }
+
+.Button {
+  font-family: RobotoRegular;
+  text-align: center;
+  background-color: white;
+  height: 50px;
+  letter-spacing: 2px;
+  color: #4c4c4c;
+  border: 1px solid #4c4c4c;
+  text-align: center; }
+
+.Button:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid black; }
+
+.content {
+  color: #4c4c4c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.title {
+  font-size: 70px;
+  letter-spacing: 20px;
+  text-align: center;
+  line-height: -5px; }
+
+.subtitle {
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-bottom: 40px; }
+
+/*# sourceMappingURL=error.css.map */

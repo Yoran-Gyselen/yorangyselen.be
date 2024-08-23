@@ -1,0 +1,15 @@
+footer {
+    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        a { color: $color-dark; }
+    }
+
+    @media screen and (max-width: 400px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}

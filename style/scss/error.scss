@@ -1,0 +1,42 @@
+@import "partials/fonts";
+@import "partials/colors";
+@import "partials/defaults";
+
+.Button {
+    font-family: RobotoRegular;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    letter-spacing: 2px;
+    color: $color-dark;
+    border: 1px solid $color-dark;
+    text-align: center;
+}
+
+.Button:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+}
+
+.content {
+    color: $color-dark;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 70px;
+    letter-spacing: 20px;
+    text-align: center;
+    line-height: -5px;
+}
+
+.subtitle {
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-bottom: 40px;
+}
