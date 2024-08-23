@@ -10,8 +10,8 @@
     <meta name="description" content="Website van Yoran Gyselen">
     <meta name="robots" content="index,follow">
     <!-- Stylesheets & Icons -->
-    <link rel="stylesheet" href="style/css/index.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="/style/css/index.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <link rel="icon" href="images/icons/icon_dark.png" media="(prefers-color-scheme: light)">
     <link rel="icon" href="images/icons/icon_light.png" media="(prefers-color-scheme: dark)">
     <!-- Title -->
@@ -71,7 +71,7 @@
                 <a href="https://www.instagram.com/yoran_gyselen/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.youtube.com/@yorangyselen"><i class="fa-brands fa-youtube"></i></a>
                 <a href="https://github.com/Yoran-Gyselen"><i class="fa-brands fa-github"></i></a>
-                <a href="https://twitter.com/YGyselen"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://x.com/YGyselen"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="https://www.linkedin.com/in/yoran-gyselen/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </article>
